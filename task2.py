@@ -4,7 +4,6 @@ def division(x, y):
     except ZeroDivisionError:
         print("Division with 0 is impossible")
 
-
 print("Enter 2 numbers for division!")
 
 try:
@@ -14,3 +13,4 @@ except ValueError:
     print("NOT AN INTEGER!")
 
 print(num1, "/", num2, "=", division(num1, num2))
+
