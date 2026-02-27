@@ -11,6 +11,6 @@ try:
     num1 = int(input("First number: "))
     num2 = int(input("Second number: "))
 except ValueError:
-    print("NOT A NUMBER!")
+    print("NOT AN INTEGER!")
 
 print(num1, "/", num2, "=", division(num1, num2))
