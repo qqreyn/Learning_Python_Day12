@@ -20,14 +20,11 @@ def calculate(num1, num2, operation):
 print("=== SAFE CALCULATOR ===")
 
 try:
-    # Input numbers
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
     
-    # Input operation
     operation = input("Enter operation (+, -, *, /): ")
     
-    # Perform calculation
     result = calculate(num1, num2, operation)
 
 except ValueError as e:
