@@ -4,26 +4,22 @@ Today's topic is error handling!
 
 **Goal:** Use try-except blocks to handle errors gracefully and build robust programs
 
-**Exercises:**
+- **task1:** Wrap `int(input())` in try-except to catch `ValueError`
 
-1. Wrap `int(input())` in try-except to catch `ValueError`  
+- **task2:** Handle `ZeroDivisionError` in a division function
 
-2. Handle `ZeroDivisionError` in a division function  
+- **task3:** Use multiple `except` blocks for different error types
 
-3. Use multiple `except` blocks for different error types  
+- **task4:** Implement a full `try-except-else-finally` structure
 
-4. Implement a full `try-except-else-finally` structure  
-
-5. Create a function that raises custom error messages using `raise`  
+- **task5:** Create a function that raises custom error messages using `raise`
 
 **mini-project:**
 Safe Calculator:  
-Build a simple calculator program that:
+Build a calculator that:
 
 - Asks the user for two numbers  
 - Asks for an operation (+, -, *, /)  
-- Uses try-except to handle:
-  - Invalid number input (`ValueError`)  
-  - Division by zero (`ZeroDivisionError`)  
-- Uses `else` to display the result if no error occurs  
-- Uses `finally` to print a message like "Program finished"  
+- Handles invalid input and division by zero  
+- Uses `else` to print the result  
+- Uses `finally` to display a finishing message
